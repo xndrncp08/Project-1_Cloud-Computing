@@ -63,26 +63,38 @@ jobs:
         uses: docker/setup-buildx-action@v3
 
       - name: Log in to Docker Hub (optional)
-        if: ${{ env.secrets.DOCKER_USERNAME != '' && env.secrets.DOCKER_PASSWORD != '' }}
         uses: docker/login-action@v3
         with:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
+        continue-on-error: true
 
-      - name: Build Docker image (task2_docker)
+      - name: Find Dockerfile and build
         run: |
-          if [ -f "task2_docker/Dockerfile" ]; then
-            docker build -t ${{ env.DOCKER_IMAGE_NAME }}:${{ env.DOCKER_TAG }} ./task2_docker
-            docker build -t ${{ env.DOCKER_IMAGE_NAME }}:latest ./task2_docker
-            echo "Docker image built"
-          else
-            echo "task2_docker/Dockerfile not found"
+          echo "Listing repo files (top level):"
+          ls -la
+
+          echo "Searching for Dockerfile..."
+          DOCKERFILE_PATH=$(find . -name Dockerfile -print -quit)
+
+          if [ -z "$DOCKERFILE_PATH" ]; then
+            echo "Dockerfile not found anywhere in repo"
             exit 1
           fi
 
+          CONTEXT_DIR=$(dirname "$DOCKERFILE_PATH")
+          echo "Found Dockerfile at: $DOCKERFILE_PATH"
+          echo "Build context: $CONTEXT_DIR"
+
+          docker build -t ${{ env.DOCKER_IMAGE_NAME }}:${{ env.DOCKER_TAG }} "$CONTEXT_DIR"
+          docker build -t ${{ env.DOCKER_IMAGE_NAME }}:latest "$CONTEXT_DIR"
+
       - name: Push Docker image (optional)
-        if: ${{ env.secrets.DOCKER_USERNAME != '' && env.secrets.DOCKER_PASSWORD != '' }}
         run: |
+          if [ -z "${{ secrets.DOCKER_USERNAME }}" ] || [ -z "${{ secrets.DOCKER_PASSWORD }}" ]; then
+            echo "No Docker Hub secrets set — skipping push"
+            exit 0
+          fi
           docker tag ${{ env.DOCKER_IMAGE_NAME }}:${{ env.DOCKER_TAG }} ${{ secrets.DOCKER_USERNAME }}/${{ env.DOCKER_IMAGE_NAME }}:${{ env.DOCKER_TAG }}
           docker tag ${{ env.DOCKER_IMAGE_NAME }}:latest ${{ secrets.DOCKER_USERNAME }}/${{ env.DOCKER_IMAGE_NAME }}:latest
           docker push ${{ secrets.DOCKER_USERNAME }}/${{ env.DOCKER_IMAGE_NAME }}:${{ env.DOCKER_TAG }}
