@@ -1,0 +1,317 @@
+2026-02-12T00:17:55.295Z 	 info: Azurite Blob service is starting on 127.0.0.1:10000
+2026-02-12T00:17:55.296Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:17:55.296Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:17:55.318Z 	 info: BlobGCManager:start() Starting BlobGCManager. Set status to Initializing.
+2026-02-12T00:17:55.318Z 	 info: BlobGCManager:start() Trigger mark and sweep loop. Set status to Running.
+2026-02-12T00:17:55.318Z 	 info: BlobGCManager:markSweepLoop() Start next mark and sweep.
+2026-02-12T00:17:55.319Z 	 info: BlobGCManager:markSweep() Get all extents.
+2026-02-12T00:17:55.319Z 	 info: BlobGCManager:start() BlobGCManager successfully started.
+2026-02-12T00:17:55.325Z 	 info: BlobGCManager:markSweep() Got 0 extents.
+2026-02-12T00:17:55.326Z 	 info: BlobGCManager:markSweep() Get referred extents.
+2026-02-12T00:17:55.326Z 	 info: BlobGCManager:markSweep() Got referred extents, unreferenced extents count is 0.
+2026-02-12T00:17:55.326Z 	 info: BlobGCManager:markSweepLoop() Mark and sweep finished, taken 7ms.
+2026-02-12T00:17:55.326Z 	 info: BlobGCManager:markSweepLoop() Sleep for 600000ms.
+2026-02-12T00:17:55.330Z 	 info: Azurite Blob service successfully listens on http://127.0.0.1:10000
+2026-02-12T00:17:55.330Z 	 info: Azurite Queue service is starting on 127.0.0.1:10001
+2026-02-12T00:17:55.330Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:17:55.330Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:17:55.349Z 	 info: QueueGCManager:start() Starting QueueGCManager, set status to Initializing
+2026-02-12T00:17:55.349Z 	 info: QueueGCManager:start() Trigger mark and sweep loop, set status to Running.
+2026-02-12T00:17:55.350Z 	 info: QueueGCManager:markSweepLoop() Start new mark and sweep.
+2026-02-12T00:17:55.350Z 	 info: QueueGCManger:markSweep() Get all extents.
+2026-02-12T00:17:55.350Z 	 info: QueueGCManager:start() QueueGCManager successfully started.
+2026-02-12T00:17:55.350Z 	 info: QueueGCManager:marksweep() Get 0 extents.
+2026-02-12T00:17:55.350Z 	 info: QueueGCManager:markSweep() Get referred extents, then remove from allExtents.
+2026-02-12T00:17:55.350Z 	 info: QueueGCManager:markSweep() Got referred extents, unreferenced extents count is 0.
+2026-02-12T00:17:55.350Z 	 info: QueueGCManager:markSweepLoop() Mark and sweep finished, take 0ms.
+2026-02-12T00:17:55.350Z 	 info: QueueGCManager:markSweepLoop() Sleep for 60000
+2026-02-12T00:17:55.352Z 	 info: Azurite Queue service successfully listens on http://127.0.0.1:10001
+2026-02-12T00:17:55.352Z 	 info: Azurite Table service is starting on 127.0.0.1:10002
+2026-02-12T00:17:55.352Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:17:55.352Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:17:55.365Z 	 info: Azurite Table service successfully listens on http://127.0.0.1:10002
+2026-02-12T00:17:55.367Z 	 info: InstaceID 416fc201-2726-4d34-b3d4-bf0c36ea43f9, SessionID 191a9cce-9f97-4330-a78b-d9812d11f4f3.
+2026-02-12T00:17:55.384Z 	 info: Telemetry initialize successfully.
+2026-02-12T00:17:55.387Z 	 verbose: Send start telemetry
+2026-02-12T00:18:55.311Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:18:55.311Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:18:55.342Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:18:55.342Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:18:55.357Z 	 info: QueueGCManager:markSweepLoop() Start new mark and sweep.
+2026-02-12T00:18:55.357Z 	 info: QueueGCManger:markSweep() Get all extents.
+2026-02-12T00:18:55.358Z 	 info: QueueGCManager:marksweep() Get 0 extents.
+2026-02-12T00:18:55.358Z 	 info: QueueGCManager:markSweep() Get referred extents, then remove from allExtents.
+2026-02-12T00:18:55.358Z 	 info: QueueGCManager:markSweep() Got referred extents, unreferenced extents count is 0.
+2026-02-12T00:18:55.358Z 	 info: QueueGCManager:markSweepLoop() Mark and sweep finished, take 1ms.
+2026-02-12T00:18:55.358Z 	 info: QueueGCManager:markSweepLoop() Sleep for 60000
+2026-02-12T00:18:55.358Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:18:55.358Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:19:55.323Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:19:55.324Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:19:55.354Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:19:55.354Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:19:55.370Z 	 info: QueueGCManager:markSweepLoop() Start new mark and sweep.
+2026-02-12T00:19:55.370Z 	 info: QueueGCManger:markSweep() Get all extents.
+2026-02-12T00:19:55.370Z 	 info: QueueGCManager:marksweep() Get 0 extents.
+2026-02-12T00:19:55.370Z 	 info: QueueGCManager:markSweep() Get referred extents, then remove from allExtents.
+2026-02-12T00:19:55.370Z 	 info: QueueGCManager:markSweep() Got referred extents, unreferenced extents count is 0.
+2026-02-12T00:19:55.370Z 	 info: QueueGCManager:markSweepLoop() Mark and sweep finished, take 0ms.
+2026-02-12T00:19:55.370Z 	 info: QueueGCManager:markSweepLoop() Sleep for 60000
+2026-02-12T00:19:55.370Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:19:55.370Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:20:55.331Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:20:55.331Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:20:55.362Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:20:55.362Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:20:55.377Z 	 info: QueueGCManager:markSweepLoop() Start new mark and sweep.
+2026-02-12T00:20:55.377Z 	 info: QueueGCManger:markSweep() Get all extents.
+2026-02-12T00:20:55.377Z 	 info: QueueGCManager:marksweep() Get 0 extents.
+2026-02-12T00:20:55.377Z 	 info: QueueGCManager:markSweep() Get referred extents, then remove from allExtents.
+2026-02-12T00:20:55.377Z 	 info: QueueGCManager:markSweep() Got referred extents, unreferenced extents count is 0.
+2026-02-12T00:20:55.377Z 	 info: QueueGCManager:markSweepLoop() Mark and sweep finished, take 0ms.
+2026-02-12T00:20:55.377Z 	 info: QueueGCManager:markSweepLoop() Sleep for 60000
+2026-02-12T00:20:55.377Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:20:55.377Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:21:55.338Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:21:55.338Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:21:55.369Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:21:55.369Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:21:55.385Z 	 info: QueueGCManager:markSweepLoop() Start new mark and sweep.
+2026-02-12T00:21:55.385Z 	 info: QueueGCManger:markSweep() Get all extents.
+2026-02-12T00:21:55.385Z 	 info: QueueGCManager:marksweep() Get 0 extents.
+2026-02-12T00:21:55.385Z 	 info: QueueGCManager:markSweep() Get referred extents, then remove from allExtents.
+2026-02-12T00:21:55.385Z 	 info: QueueGCManager:markSweep() Got referred extents, unreferenced extents count is 0.
+2026-02-12T00:21:55.385Z 	 info: QueueGCManager:markSweepLoop() Mark and sweep finished, take 0ms.
+2026-02-12T00:21:55.385Z 	 info: QueueGCManager:markSweepLoop() Sleep for 60000
+2026-02-12T00:21:55.385Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:21:55.385Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:22:54.612Z 	 error: ErrorMiddleware: Received a MiddlewareError, fill error information to HTTP response
+2026-02-12T00:22:54.612Z 	 error: ErrorMiddleware: ErrorName=StorageError ErrorMessage=The API version 2026-02-06 is not supported by Azurite. Please upgrade Azurite to latest version and retry. If you are using Azurite in Visual Studio, please check you have installed latest Visual Studio patch. Azurite command line parameter "--skipApiVersionCheck" or Visual Studio Code configuration "Skip Api Version Check" can skip this error.   ErrorHTTPStatusCode=400 ErrorHTTPStatusMessage=The API version 2026-02-06 is not supported by Azurite. Please upgrade Azurite to latest version and retry. If you are using Azurite in Visual Studio, please check you have installed latest Visual Studio patch. Azurite command line parameter "--skipApiVersionCheck" or Visual Studio Code configuration "Skip Api Version Check" can skip this error.  ErrorHTTPHeaders={"x-ms-error-code":"InvalidHeaderValue","x-ms-request-id":"33db471a-c1f2-46c6-a2c6-1aff5ce61f09"} ErrorHTTPBody="<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<Error>\n  <Code>InvalidHeaderValue</Code>\n  <Message>The API version 2026-02-06 is not supported by Azurite. Please upgrade Azurite to latest version and retry. If you are using Azurite in Visual Studio, please check you have installed latest Visual Studio patch. Azurite command line parameter \"--skipApiVersionCheck\" or Visual Studio Code configuration \"Skip Api Version Check\" can skip this error. \nRequestId:33db471a-c1f2-46c6-a2c6-1aff5ce61f09\nTime:2026-02-12T00:22:54.609Z</Message>\n</Error>" ErrorStack="StorageError: The API version 2026-02-06 is not supported by Azurite. Please upgrade Azurite to latest version and retry. If you are using Azurite in Visual Studio, please check you have installed latest Visual Studio patch. Azurite command line parameter \"--skipApiVersionCheck\" or Visual Studio Code configuration \"Skip Api Version Check\" can skip this error. \n    at StorageErrorFactory.getInvalidAPIVersion (C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\dist\\src\\blob\\errors\\StorageErrorFactory.js:226:16)\n    at checkApiVersion (C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\dist\\src\\blob\\utils\\utils.js:11:45)\n    at blobStorageContextMiddleware (C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\dist\\src\\blob\\middlewares\\blobStorageContext.middleware.js:94:41)\n    at C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\dist\\src\\blob\\middlewares\\blobStorageContext.middleware.js:15:16\n    at Layer.handle [as handle_request] (C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at expressInit (C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\node_modules\\express\\lib\\middleware\\init.js:40:5)"
+2026-02-12T00:22:54.612Z 	 error: ErrorMiddleware: Set HTTP code: 400
+2026-02-12T00:22:54.612Z 	 error: ErrorMiddleware: Set HTTP status message: The API version 2026-02-06 is not supported by Azurite. Please upgrade Azurite to latest version and retry. If you are using Azurite in Visual Studio, please check you have installed latest Visual Studio patch. Azurite command line parameter "--skipApiVersionCheck" or Visual Studio Code configuration "Skip Api Version Check" can skip this error. 
+2026-02-12T00:22:54.612Z 	 error: ErrorMiddleware: Set HTTP Header: x-ms-error-code=InvalidHeaderValue
+2026-02-12T00:22:54.612Z 	 error: ErrorMiddleware: Set HTTP Header: x-ms-request-id=33db471a-c1f2-46c6-a2c6-1aff5ce61f09
+2026-02-12T00:22:54.612Z 	 error: ErrorMiddleware: Set content type: application/xml
+2026-02-12T00:22:54.612Z 	 error: ErrorMiddleware: Set HTTP body: "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<Error>\n  <Code>InvalidHeaderValue</Code>\n  <Message>The API version 2026-02-06 is not supported by Azurite. Please upgrade Azurite to latest version and retry. If you are using Azurite in Visual Studio, please check you have installed latest Visual Studio patch. Azurite command line parameter \"--skipApiVersionCheck\" or Visual Studio Code configuration \"Skip Api Version Check\" can skip this error. \nRequestId:33db471a-c1f2-46c6-a2c6-1aff5ce61f09\nTime:2026-02-12T00:22:54.609Z</Message>\n</Error>"
+2026-02-12T00:22:54.613Z 	 verbose: Send Blob telemetry: B_Service_SetProperties
+2026-02-12T00:22:54.613Z 	 info: EndMiddleware: End response. TotalTimeInMS=undefined StatusCode=400 StatusMessage=The API version 2026-02-06 is not supported by Azurite. Please upgrade Azurite to latest version and retry. If you are using Azurite in Visual Studio, please check you have installed latest Visual Studio patch. Azurite command line parameter "--skipApiVersionCheck" or Visual Studio Code configuration "Skip Api Version Check" can skip this error.  Headers={"server":"Azurite-Blob/3.35.0","x-ms-error-code":"InvalidHeaderValue","x-ms-request-id":"33db471a-c1f2-46c6-a2c6-1aff5ce61f09","content-type":"application/xml"}
+2026-02-12T00:22:55.341Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:22:55.341Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:22:55.372Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:22:55.372Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:22:55.387Z 	 info: QueueGCManager:markSweepLoop() Start new mark and sweep.
+2026-02-12T00:22:55.387Z 	 info: QueueGCManger:markSweep() Get all extents.
+2026-02-12T00:22:55.387Z 	 info: QueueGCManager:marksweep() Get 0 extents.
+2026-02-12T00:22:55.387Z 	 info: QueueGCManager:markSweep() Get referred extents, then remove from allExtents.
+2026-02-12T00:22:55.387Z 	 info: QueueGCManager:markSweep() Got referred extents, unreferenced extents count is 0.
+2026-02-12T00:22:55.387Z 	 info: QueueGCManager:markSweepLoop() Mark and sweep finished, take 0ms.
+2026-02-12T00:22:55.387Z 	 info: QueueGCManager:markSweepLoop() Sleep for 60000
+2026-02-12T00:22:55.388Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:22:55.388Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:23:55.350Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:23:55.350Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:23:55.382Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:23:55.382Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:23:55.397Z 	 info: QueueGCManager:markSweepLoop() Start new mark and sweep.
+2026-02-12T00:23:55.397Z 	 info: QueueGCManger:markSweep() Get all extents.
+2026-02-12T00:23:55.397Z 	 info: QueueGCManager:marksweep() Get 0 extents.
+2026-02-12T00:23:55.397Z 	 info: QueueGCManager:markSweep() Get referred extents, then remove from allExtents.
+2026-02-12T00:23:55.397Z 	 info: QueueGCManager:markSweep() Got referred extents, unreferenced extents count is 0.
+2026-02-12T00:23:55.397Z 	 info: QueueGCManager:markSweepLoop() Mark and sweep finished, take 0ms.
+2026-02-12T00:23:55.397Z 	 info: QueueGCManager:markSweepLoop() Sleep for 60000
+2026-02-12T00:23:55.398Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:23:55.398Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:24:28.613Z 	 error: ErrorMiddleware: Received a MiddlewareError, fill error information to HTTP response
+2026-02-12T00:24:28.613Z 	 error: ErrorMiddleware: ErrorName=StorageError ErrorMessage=The API version 2026-02-06 is not supported by Azurite. Please upgrade Azurite to latest version and retry. If you are using Azurite in Visual Studio, please check you have installed latest Visual Studio patch. Azurite command line parameter "--skipApiVersionCheck" or Visual Studio Code configuration "Skip Api Version Check" can skip this error.   ErrorHTTPStatusCode=400 ErrorHTTPStatusMessage=The API version 2026-02-06 is not supported by Azurite. Please upgrade Azurite to latest version and retry. If you are using Azurite in Visual Studio, please check you have installed latest Visual Studio patch. Azurite command line parameter "--skipApiVersionCheck" or Visual Studio Code configuration "Skip Api Version Check" can skip this error.  ErrorHTTPHeaders={"x-ms-error-code":"InvalidHeaderValue","x-ms-request-id":"cb984b82-6a97-4514-a732-5b93e4d68291"} ErrorHTTPBody="<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<Error>\n  <Code>InvalidHeaderValue</Code>\n  <Message>The API version 2026-02-06 is not supported by Azurite. Please upgrade Azurite to latest version and retry. If you are using Azurite in Visual Studio, please check you have installed latest Visual Studio patch. Azurite command line parameter \"--skipApiVersionCheck\" or Visual Studio Code configuration \"Skip Api Version Check\" can skip this error. \nRequestId:cb984b82-6a97-4514-a732-5b93e4d68291\nTime:2026-02-12T00:24:28.613Z</Message>\n</Error>" ErrorStack="StorageError: The API version 2026-02-06 is not supported by Azurite. Please upgrade Azurite to latest version and retry. If you are using Azurite in Visual Studio, please check you have installed latest Visual Studio patch. Azurite command line parameter \"--skipApiVersionCheck\" or Visual Studio Code configuration \"Skip Api Version Check\" can skip this error. \n    at StorageErrorFactory.getInvalidAPIVersion (C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\dist\\src\\blob\\errors\\StorageErrorFactory.js:226:16)\n    at checkApiVersion (C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\dist\\src\\blob\\utils\\utils.js:11:45)\n    at blobStorageContextMiddleware (C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\dist\\src\\blob\\middlewares\\blobStorageContext.middleware.js:94:41)\n    at C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\dist\\src\\blob\\middlewares\\blobStorageContext.middleware.js:15:16\n    at Layer.handle [as handle_request] (C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at expressInit (C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\node_modules\\express\\lib\\middleware\\init.js:40:5)"
+2026-02-12T00:24:28.613Z 	 error: ErrorMiddleware: Set HTTP code: 400
+2026-02-12T00:24:28.613Z 	 error: ErrorMiddleware: Set HTTP status message: The API version 2026-02-06 is not supported by Azurite. Please upgrade Azurite to latest version and retry. If you are using Azurite in Visual Studio, please check you have installed latest Visual Studio patch. Azurite command line parameter "--skipApiVersionCheck" or Visual Studio Code configuration "Skip Api Version Check" can skip this error. 
+2026-02-12T00:24:28.613Z 	 error: ErrorMiddleware: Set HTTP Header: x-ms-error-code=InvalidHeaderValue
+2026-02-12T00:24:28.613Z 	 error: ErrorMiddleware: Set HTTP Header: x-ms-request-id=cb984b82-6a97-4514-a732-5b93e4d68291
+2026-02-12T00:24:28.613Z 	 error: ErrorMiddleware: Set content type: application/xml
+2026-02-12T00:24:28.613Z 	 error: ErrorMiddleware: Set HTTP body: "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<Error>\n  <Code>InvalidHeaderValue</Code>\n  <Message>The API version 2026-02-06 is not supported by Azurite. Please upgrade Azurite to latest version and retry. If you are using Azurite in Visual Studio, please check you have installed latest Visual Studio patch. Azurite command line parameter \"--skipApiVersionCheck\" or Visual Studio Code configuration \"Skip Api Version Check\" can skip this error. \nRequestId:cb984b82-6a97-4514-a732-5b93e4d68291\nTime:2026-02-12T00:24:28.613Z</Message>\n</Error>"
+2026-02-12T00:24:28.614Z 	 verbose: Send Blob telemetry: B_Service_SetProperties
+2026-02-12T00:24:28.614Z 	 info: EndMiddleware: End response. TotalTimeInMS=undefined StatusCode=400 StatusMessage=The API version 2026-02-06 is not supported by Azurite. Please upgrade Azurite to latest version and retry. If you are using Azurite in Visual Studio, please check you have installed latest Visual Studio patch. Azurite command line parameter "--skipApiVersionCheck" or Visual Studio Code configuration "Skip Api Version Check" can skip this error.  Headers={"server":"Azurite-Blob/3.35.0","x-ms-error-code":"InvalidHeaderValue","x-ms-request-id":"cb984b82-6a97-4514-a732-5b93e4d68291","content-type":"application/xml"}
+2026-02-12T00:24:28.619Z 	 error: ErrorMiddleware: Received a MiddlewareError, fill error information to HTTP response
+2026-02-12T00:24:28.619Z 	 error: ErrorMiddleware: ErrorName=StorageError ErrorMessage=The API version 2026-02-06 is not supported by Azurite. Please upgrade Azurite to latest version and retry. If you are using Azurite in Visual Studio, please check you have installed latest Visual Studio patch. Azurite command line parameter "--skipApiVersionCheck" or Visual Studio Code configuration "Skip Api Version Check" can skip this error.   ErrorHTTPStatusCode=400 ErrorHTTPStatusMessage=The API version 2026-02-06 is not supported by Azurite. Please upgrade Azurite to latest version and retry. If you are using Azurite in Visual Studio, please check you have installed latest Visual Studio patch. Azurite command line parameter "--skipApiVersionCheck" or Visual Studio Code configuration "Skip Api Version Check" can skip this error.  ErrorHTTPHeaders={"x-ms-error-code":"InvalidHeaderValue","x-ms-request-id":"1d2d4340-1ae0-41f1-aadd-e7de5a360c48"} ErrorHTTPBody="<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<Error>\n  <Code>InvalidHeaderValue</Code>\n  <Message>The API version 2026-02-06 is not supported by Azurite. Please upgrade Azurite to latest version and retry. If you are using Azurite in Visual Studio, please check you have installed latest Visual Studio patch. Azurite command line parameter \"--skipApiVersionCheck\" or Visual Studio Code configuration \"Skip Api Version Check\" can skip this error. \nRequestId:1d2d4340-1ae0-41f1-aadd-e7de5a360c48\nTime:2026-02-12T00:24:28.619Z</Message>\n</Error>" ErrorStack="StorageError: The API version 2026-02-06 is not supported by Azurite. Please upgrade Azurite to latest version and retry. If you are using Azurite in Visual Studio, please check you have installed latest Visual Studio patch. Azurite command line parameter \"--skipApiVersionCheck\" or Visual Studio Code configuration \"Skip Api Version Check\" can skip this error. \n    at StorageErrorFactory.getInvalidAPIVersion (C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\dist\\src\\blob\\errors\\StorageErrorFactory.js:226:16)\n    at checkApiVersion (C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\dist\\src\\blob\\utils\\utils.js:11:45)\n    at blobStorageContextMiddleware (C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\dist\\src\\blob\\middlewares\\blobStorageContext.middleware.js:94:41)\n    at C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\dist\\src\\blob\\middlewares\\blobStorageContext.middleware.js:15:16\n    at Layer.handle [as handle_request] (C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at expressInit (C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\node_modules\\express\\lib\\middleware\\init.js:40:5)"
+2026-02-12T00:24:28.619Z 	 error: ErrorMiddleware: Set HTTP code: 400
+2026-02-12T00:24:28.619Z 	 error: ErrorMiddleware: Set HTTP status message: The API version 2026-02-06 is not supported by Azurite. Please upgrade Azurite to latest version and retry. If you are using Azurite in Visual Studio, please check you have installed latest Visual Studio patch. Azurite command line parameter "--skipApiVersionCheck" or Visual Studio Code configuration "Skip Api Version Check" can skip this error. 
+2026-02-12T00:24:28.619Z 	 error: ErrorMiddleware: Set HTTP Header: x-ms-error-code=InvalidHeaderValue
+2026-02-12T00:24:28.619Z 	 error: ErrorMiddleware: Set HTTP Header: x-ms-request-id=1d2d4340-1ae0-41f1-aadd-e7de5a360c48
+2026-02-12T00:24:28.619Z 	 error: ErrorMiddleware: Set content type: application/xml
+2026-02-12T00:24:28.619Z 	 error: ErrorMiddleware: Set HTTP body: "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<Error>\n  <Code>InvalidHeaderValue</Code>\n  <Message>The API version 2026-02-06 is not supported by Azurite. Please upgrade Azurite to latest version and retry. If you are using Azurite in Visual Studio, please check you have installed latest Visual Studio patch. Azurite command line parameter \"--skipApiVersionCheck\" or Visual Studio Code configuration \"Skip Api Version Check\" can skip this error. \nRequestId:1d2d4340-1ae0-41f1-aadd-e7de5a360c48\nTime:2026-02-12T00:24:28.619Z</Message>\n</Error>"
+2026-02-12T00:24:28.620Z 	 verbose: Send Blob telemetry: B_Service_SetProperties
+2026-02-12T00:24:28.620Z 	 info: EndMiddleware: End response. TotalTimeInMS=undefined StatusCode=400 StatusMessage=The API version 2026-02-06 is not supported by Azurite. Please upgrade Azurite to latest version and retry. If you are using Azurite in Visual Studio, please check you have installed latest Visual Studio patch. Azurite command line parameter "--skipApiVersionCheck" or Visual Studio Code configuration "Skip Api Version Check" can skip this error.  Headers={"server":"Azurite-Blob/3.35.0","x-ms-error-code":"InvalidHeaderValue","x-ms-request-id":"1d2d4340-1ae0-41f1-aadd-e7de5a360c48","content-type":"application/xml"}
+2026-02-12T00:24:55.351Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:24:55.352Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:24:55.382Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:24:55.382Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:24:55.398Z 	 info: QueueGCManager:markSweepLoop() Start new mark and sweep.
+2026-02-12T00:24:55.398Z 	 info: QueueGCManger:markSweep() Get all extents.
+2026-02-12T00:24:55.398Z 	 info: QueueGCManager:marksweep() Get 0 extents.
+2026-02-12T00:24:55.398Z 	 info: QueueGCManager:markSweep() Get referred extents, then remove from allExtents.
+2026-02-12T00:24:55.398Z 	 info: QueueGCManager:markSweep() Got referred extents, unreferenced extents count is 0.
+2026-02-12T00:24:55.398Z 	 info: QueueGCManager:markSweepLoop() Mark and sweep finished, take 0ms.
+2026-02-12T00:24:55.398Z 	 info: QueueGCManager:markSweepLoop() Sleep for 60000
+2026-02-12T00:24:55.398Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:24:55.398Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:25:55.361Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:25:55.361Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:25:55.392Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:25:55.392Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:25:55.408Z 	 info: QueueGCManager:markSweepLoop() Start new mark and sweep.
+2026-02-12T00:25:55.408Z 	 info: QueueGCManger:markSweep() Get all extents.
+2026-02-12T00:25:55.408Z 	 info: QueueGCManager:marksweep() Get 0 extents.
+2026-02-12T00:25:55.408Z 	 info: QueueGCManager:markSweep() Get referred extents, then remove from allExtents.
+2026-02-12T00:25:55.408Z 	 info: QueueGCManager:markSweep() Got referred extents, unreferenced extents count is 0.
+2026-02-12T00:25:55.408Z 	 info: QueueGCManager:markSweepLoop() Mark and sweep finished, take 0ms.
+2026-02-12T00:25:55.408Z 	 info: QueueGCManager:markSweepLoop() Sleep for 60000
+2026-02-12T00:25:55.408Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:25:55.408Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:30:49.061Z 	 info: Azurite Blob service is starting on 127.0.0.1:10000
+2026-02-12T00:30:49.062Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:30:49.062Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:30:49.087Z 	 info: BlobGCManager:start() Starting BlobGCManager. Set status to Initializing.
+2026-02-12T00:31:35.428Z 	 info: Azurite Blob service is starting on 127.0.0.1:10000
+2026-02-12T00:31:35.429Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:31:35.429Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:31:35.455Z 	 info: BlobGCManager:start() Starting BlobGCManager. Set status to Initializing.
+2026-02-12T00:31:35.455Z 	 info: BlobGCManager:start() Trigger mark and sweep loop. Set status to Running.
+2026-02-12T00:31:35.455Z 	 info: BlobGCManager:markSweepLoop() Start next mark and sweep.
+2026-02-12T00:31:35.455Z 	 info: BlobGCManager:markSweep() Get all extents.
+2026-02-12T00:31:35.456Z 	 info: BlobGCManager:start() BlobGCManager successfully started.
+2026-02-12T00:31:35.462Z 	 info: BlobGCManager:markSweep() Got 0 extents.
+2026-02-12T00:31:35.462Z 	 info: BlobGCManager:markSweep() Get referred extents.
+2026-02-12T00:31:35.463Z 	 info: BlobGCManager:markSweep() Got referred extents, unreferenced extents count is 0.
+2026-02-12T00:31:35.463Z 	 info: BlobGCManager:markSweepLoop() Mark and sweep finished, taken 8ms.
+2026-02-12T00:31:35.463Z 	 info: BlobGCManager:markSweepLoop() Sleep for 600000ms.
+2026-02-12T00:31:35.466Z 	 info: Azurite Blob service successfully listens on http://127.0.0.1:10000
+2026-02-12T00:31:35.467Z 	 info: Azurite Queue service is starting on 127.0.0.1:10001
+2026-02-12T00:31:35.467Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:31:35.467Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:31:35.487Z 	 info: QueueGCManager:start() Starting QueueGCManager, set status to Initializing
+2026-02-12T00:31:35.487Z 	 info: QueueGCManager:start() Trigger mark and sweep loop, set status to Running.
+2026-02-12T00:31:35.487Z 	 info: QueueGCManager:markSweepLoop() Start new mark and sweep.
+2026-02-12T00:31:35.487Z 	 info: QueueGCManger:markSweep() Get all extents.
+2026-02-12T00:31:35.487Z 	 info: QueueGCManager:start() QueueGCManager successfully started.
+2026-02-12T00:31:35.487Z 	 info: QueueGCManager:marksweep() Get 0 extents.
+2026-02-12T00:31:35.487Z 	 info: QueueGCManager:markSweep() Get referred extents, then remove from allExtents.
+2026-02-12T00:31:35.487Z 	 info: QueueGCManager:markSweep() Got referred extents, unreferenced extents count is 0.
+2026-02-12T00:31:35.487Z 	 info: QueueGCManager:markSweepLoop() Mark and sweep finished, take 0ms.
+2026-02-12T00:31:35.487Z 	 info: QueueGCManager:markSweepLoop() Sleep for 60000
+2026-02-12T00:31:35.489Z 	 info: Azurite Queue service successfully listens on http://127.0.0.1:10001
+2026-02-12T00:31:35.489Z 	 info: Azurite Table service is starting on 127.0.0.1:10002
+2026-02-12T00:31:35.489Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:31:35.489Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:31:35.491Z 	 info: Azurite Table service successfully listens on http://127.0.0.1:10002
+2026-02-12T00:31:35.492Z 	 info: InstaceID 416fc201-2726-4d34-b3d4-bf0c36ea43f9, SessionID c3074477-ede6-441b-9ef3-8714221afb19.
+2026-02-12T00:31:35.510Z 	 info: Telemetry initialize successfully.
+2026-02-12T00:31:35.512Z 	 verbose: Send start telemetry
+2026-02-12T00:32:22.712Z 4535a29a-6e29-4ba1-87b2-79517c927c01 info: BlobStorageContextMiddleware: RequestMethod=PUT RequestURL=http://127.0.0.1/devstoreaccount1/datasets?restype=container RequestHeaders:{"host":"127.0.0.1:10000","user-agent":"azsdk-python-storage-blob/12.28.0 Python/3.12.5 (Windows-11-10.0.26200-SP0)","accept-encoding":"gzip, deflate","accept":"application/xml","connection":"keep-alive","x-ms-version":"2026-02-06","x-ms-date":"Thu, 12 Feb 2026 00:32:22 GMT","x-ms-client-request-id":"4c0ef472-07aa-11f1-afc8-9009df0be644","authorization":"SharedKey devstoreaccount1:7f4aed7WVH5VQF9SRzTZZXw8rWOwCgrjO4sTYwL2nds=","content-length":"0"} ClientIP=127.0.0.1 Protocol=http HTTPVersion=1.1
+2026-02-12T00:32:22.712Z 4535a29a-6e29-4ba1-87b2-79517c927c01 info: BlobStorageContextMiddleware: Account=devstoreaccount1 Container=datasets Blob=
+2026-02-12T00:32:22.713Z 4535a29a-6e29-4ba1-87b2-79517c927c01 verbose: DispatchMiddleware: Dispatching request...
+2026-02-12T00:32:22.714Z 4535a29a-6e29-4ba1-87b2-79517c927c01 info: DispatchMiddleware: Operation=Container_Create
+2026-02-12T00:32:22.714Z 4535a29a-6e29-4ba1-87b2-79517c927c01 verbose: AuthenticationMiddlewareFactory:createAuthenticationMiddleware() Validating authentications.
+2026-02-12T00:32:22.714Z 4535a29a-6e29-4ba1-87b2-79517c927c01 info: PublicAccessAuthenticator:validate() Start validation against public access.
+2026-02-12T00:32:22.714Z 4535a29a-6e29-4ba1-87b2-79517c927c01 debug: PublicAccessAuthenticator:validate() Getting account properties...
+2026-02-12T00:32:22.714Z 4535a29a-6e29-4ba1-87b2-79517c927c01 debug: PublicAccessAuthenticator:validate() Retrieved account name from context: devstoreaccount1, container: datasets, blob: 
+2026-02-12T00:32:22.718Z 4535a29a-6e29-4ba1-87b2-79517c927c01 debug: PublicAccessAuthenticator:validate() Skip public access authentication. Cannot get public access type for container datasets
+2026-02-12T00:32:22.718Z 4535a29a-6e29-4ba1-87b2-79517c927c01 info: BlobSharedKeyAuthenticator:validate() Start validation against account shared key authentication.
+2026-02-12T00:32:22.725Z 4535a29a-6e29-4ba1-87b2-79517c927c01 info: BlobSharedKeyAuthenticator:validate() [STRING TO SIGN]:"PUT\n\n\n\n\n\n\n\n\n\n\n\nx-ms-client-request-id:4c0ef472-07aa-11f1-afc8-9009df0be644\nx-ms-date:Thu, 12 Feb 2026 00:32:22 GMT\nx-ms-version:2026-02-06\n/devstoreaccount1/devstoreaccount1/datasets\nrestype:container"
+2026-02-12T00:32:22.725Z 4535a29a-6e29-4ba1-87b2-79517c927c01 info: BlobSharedKeyAuthenticator:validate() Calculated authentication header based on key1: SharedKey devstoreaccount1:9QcovW5yak0wW0D6FGVkUheqn4090SJq2pZDVott2dA=
+2026-02-12T00:32:22.725Z 4535a29a-6e29-4ba1-87b2-79517c927c01 info: BlobSharedKeyAuthenticator:validate() Validation failed.
+2026-02-12T00:32:22.726Z 4535a29a-6e29-4ba1-87b2-79517c927c01 info: AccountSASAuthenticator:validate() Start validation against account Shared Access Signature pattern.
+2026-02-12T00:32:22.726Z 4535a29a-6e29-4ba1-87b2-79517c927c01 debug: AccountSASAuthenticator:validate() Getting account properties...
+2026-02-12T00:32:22.726Z 4535a29a-6e29-4ba1-87b2-79517c927c01 debug: AccountSASAuthenticator:validate() Retrieved account name from context: devstoreaccount1, container: datasets, blob: 
+2026-02-12T00:32:22.726Z 4535a29a-6e29-4ba1-87b2-79517c927c01 debug: AccountSASAuthenticator:validate() Got account properties successfully.
+2026-02-12T00:32:22.726Z 4535a29a-6e29-4ba1-87b2-79517c927c01 debug: AccountSASAuthenticator:validate() Retrieved signature from URL parameter sig: undefined
+2026-02-12T00:32:22.726Z 4535a29a-6e29-4ba1-87b2-79517c927c01 info: AccountSASAuthenticator:validate() Failed to get valid account SAS values from request.
+2026-02-12T00:32:22.726Z 4535a29a-6e29-4ba1-87b2-79517c927c01 info: BlobSASAuthenticator:validate() Start validation against blob service Shared Access Signature pattern.
+2026-02-12T00:32:22.726Z 4535a29a-6e29-4ba1-87b2-79517c927c01 debug: BlobSASAuthenticator:validate() Getting account properties...
+2026-02-12T00:32:22.726Z 4535a29a-6e29-4ba1-87b2-79517c927c01 debug: BlobSASAuthenticator:validate() Retrieved account name from context: devstoreaccount1, container: datasets, blob: 
+2026-02-12T00:32:22.726Z 4535a29a-6e29-4ba1-87b2-79517c927c01 debug: BlobSASAuthenticator:validate() Got account properties successfully.
+2026-02-12T00:32:22.726Z 4535a29a-6e29-4ba1-87b2-79517c927c01 debug: BlobSASAuthenticator:validate() Retrieved signature from URL parameter sig: undefined
+2026-02-12T00:32:22.726Z 4535a29a-6e29-4ba1-87b2-79517c927c01 debug: BlobSASAuthenticator:validate() No signature found in request. Skip blob service SAS validation.
+2026-02-12T00:32:22.727Z 4535a29a-6e29-4ba1-87b2-79517c927c01 error: ErrorMiddleware: Received a MiddlewareError, fill error information to HTTP response
+2026-02-12T00:32:22.727Z 4535a29a-6e29-4ba1-87b2-79517c927c01 error: ErrorMiddleware: ErrorName=StorageError ErrorMessage=Server failed to authenticate the request. Make sure the value of the Authorization header is formed correctly including the signature.  ErrorHTTPStatusCode=403 ErrorHTTPStatusMessage=Server failed to authenticate the request. Make sure the value of the Authorization header is formed correctly including the signature. ErrorHTTPHeaders={"x-ms-error-code":"AuthorizationFailure","x-ms-request-id":"4535a29a-6e29-4ba1-87b2-79517c927c01"} ErrorHTTPBody="<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<Error>\n  <Code>AuthorizationFailure</Code>\n  <Message>Server failed to authenticate the request. Make sure the value of the Authorization header is formed correctly including the signature.\nRequestId:4535a29a-6e29-4ba1-87b2-79517c927c01\nTime:2026-02-12T00:32:22.726Z</Message>\n</Error>" ErrorStack="StorageError: Server failed to authenticate the request. Make sure the value of the Authorization header is formed correctly including the signature.\n    at StorageErrorFactory.getAuthorizationFailure (C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\dist\\src\\blob\\errors\\StorageErrorFactory.js:144:16)\n    at C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\dist\\src\\blob\\middlewares\\AuthenticationMiddlewareFactory.js:25:56\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"
+2026-02-12T00:32:22.727Z 4535a29a-6e29-4ba1-87b2-79517c927c01 error: ErrorMiddleware: Set HTTP code: 403
+2026-02-12T00:32:22.727Z 4535a29a-6e29-4ba1-87b2-79517c927c01 error: ErrorMiddleware: Set HTTP status message: Server failed to authenticate the request. Make sure the value of the Authorization header is formed correctly including the signature.
+2026-02-12T00:32:22.727Z 4535a29a-6e29-4ba1-87b2-79517c927c01 error: ErrorMiddleware: Set HTTP Header: x-ms-error-code=AuthorizationFailure
+2026-02-12T00:32:22.727Z 4535a29a-6e29-4ba1-87b2-79517c927c01 error: ErrorMiddleware: Set HTTP Header: x-ms-request-id=4535a29a-6e29-4ba1-87b2-79517c927c01
+2026-02-12T00:32:22.727Z 4535a29a-6e29-4ba1-87b2-79517c927c01 error: ErrorMiddleware: Set content type: application/xml
+2026-02-12T00:32:22.727Z 4535a29a-6e29-4ba1-87b2-79517c927c01 error: ErrorMiddleware: Set HTTP body: "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<Error>\n  <Code>AuthorizationFailure</Code>\n  <Message>Server failed to authenticate the request. Make sure the value of the Authorization header is formed correctly including the signature.\nRequestId:4535a29a-6e29-4ba1-87b2-79517c927c01\nTime:2026-02-12T00:32:22.726Z</Message>\n</Error>"
+2026-02-12T00:32:22.728Z 4535a29a-6e29-4ba1-87b2-79517c927c01 verbose: Send Blob telemetry: B_Container_Create
+2026-02-12T00:32:22.728Z 4535a29a-6e29-4ba1-87b2-79517c927c01 info: EndMiddleware: End response. TotalTimeInMS=16 StatusCode=403 StatusMessage=Server failed to authenticate the request. Make sure the value of the Authorization header is formed correctly including the signature. Headers={"server":"Azurite-Blob/3.35.0","x-ms-error-code":"AuthorizationFailure","x-ms-request-id":"4535a29a-6e29-4ba1-87b2-79517c927c01","content-type":"application/xml"}
+2026-02-12T00:32:22.741Z d241333e-52c4-48aa-8e5e-c42c7a0d1afe info: BlobStorageContextMiddleware: RequestMethod=PUT RequestURL=http://127.0.0.1/devstoreaccount1/datasets/All_Diets.csv RequestHeaders:{"host":"127.0.0.1:10000","user-agent":"azsdk-python-storage-blob/12.28.0 Python/3.12.5 (Windows-11-10.0.26200-SP0)","accept-encoding":"gzip, deflate","accept":"application/xml","connection":"keep-alive","content-length":"703100","x-ms-blob-type":"BlockBlob","x-ms-version":"2026-02-06","content-type":"application/octet-stream","x-ms-date":"Thu, 12 Feb 2026 00:32:22 GMT","x-ms-client-request-id":"4c13e97a-07aa-11f1-b4fe-9009df0be644","authorization":"SharedKey devstoreaccount1:6UWnJoDZ3uyREpj6l9Zmekq954C342iSai+1yGp3w5c="} ClientIP=127.0.0.1 Protocol=http HTTPVersion=1.1
+2026-02-12T00:32:22.741Z d241333e-52c4-48aa-8e5e-c42c7a0d1afe info: BlobStorageContextMiddleware: Account=devstoreaccount1 Container=datasets Blob=All_Diets.csv
+2026-02-12T00:32:22.741Z d241333e-52c4-48aa-8e5e-c42c7a0d1afe verbose: DispatchMiddleware: Dispatching request...
+2026-02-12T00:32:22.742Z d241333e-52c4-48aa-8e5e-c42c7a0d1afe info: DispatchMiddleware: Operation=BlockBlob_Upload
+2026-02-12T00:32:22.742Z d241333e-52c4-48aa-8e5e-c42c7a0d1afe verbose: AuthenticationMiddlewareFactory:createAuthenticationMiddleware() Validating authentications.
+2026-02-12T00:32:22.742Z d241333e-52c4-48aa-8e5e-c42c7a0d1afe info: PublicAccessAuthenticator:validate() Start validation against public access.
+2026-02-12T00:32:22.742Z d241333e-52c4-48aa-8e5e-c42c7a0d1afe debug: PublicAccessAuthenticator:validate() Getting account properties...
+2026-02-12T00:32:22.742Z d241333e-52c4-48aa-8e5e-c42c7a0d1afe debug: PublicAccessAuthenticator:validate() Retrieved account name from context: devstoreaccount1, container: datasets, blob: All_Diets.csv
+2026-02-12T00:32:22.742Z d241333e-52c4-48aa-8e5e-c42c7a0d1afe debug: PublicAccessAuthenticator:validate() Skip public access authentication. Cannot get public access type for container datasets
+2026-02-12T00:32:22.742Z d241333e-52c4-48aa-8e5e-c42c7a0d1afe info: BlobSharedKeyAuthenticator:validate() Start validation against account shared key authentication.
+2026-02-12T00:32:22.742Z d241333e-52c4-48aa-8e5e-c42c7a0d1afe info: BlobSharedKeyAuthenticator:validate() [STRING TO SIGN]:"PUT\n\n\n703100\n\napplication/octet-stream\n\n\n\n\n\n\nx-ms-blob-type:BlockBlob\nx-ms-client-request-id:4c13e97a-07aa-11f1-b4fe-9009df0be644\nx-ms-date:Thu, 12 Feb 2026 00:32:22 GMT\nx-ms-version:2026-02-06\n/devstoreaccount1/devstoreaccount1/datasets/All_Diets.csv"
+2026-02-12T00:32:22.742Z d241333e-52c4-48aa-8e5e-c42c7a0d1afe info: BlobSharedKeyAuthenticator:validate() Calculated authentication header based on key1: SharedKey devstoreaccount1:cVE99T0Fh/3/YUWpolOHEwO0OqND3i03Hg5yAZ4wttY=
+2026-02-12T00:32:22.742Z d241333e-52c4-48aa-8e5e-c42c7a0d1afe info: BlobSharedKeyAuthenticator:validate() Validation failed.
+2026-02-12T00:32:22.742Z d241333e-52c4-48aa-8e5e-c42c7a0d1afe info: AccountSASAuthenticator:validate() Start validation against account Shared Access Signature pattern.
+2026-02-12T00:32:22.742Z d241333e-52c4-48aa-8e5e-c42c7a0d1afe debug: AccountSASAuthenticator:validate() Getting account properties...
+2026-02-12T00:32:22.743Z d241333e-52c4-48aa-8e5e-c42c7a0d1afe debug: AccountSASAuthenticator:validate() Retrieved account name from context: devstoreaccount1, container: datasets, blob: All_Diets.csv
+2026-02-12T00:32:22.743Z d241333e-52c4-48aa-8e5e-c42c7a0d1afe debug: AccountSASAuthenticator:validate() Got account properties successfully.
+2026-02-12T00:32:22.743Z d241333e-52c4-48aa-8e5e-c42c7a0d1afe debug: AccountSASAuthenticator:validate() Retrieved signature from URL parameter sig: undefined
+2026-02-12T00:32:22.743Z d241333e-52c4-48aa-8e5e-c42c7a0d1afe info: AccountSASAuthenticator:validate() Failed to get valid account SAS values from request.
+2026-02-12T00:32:22.743Z d241333e-52c4-48aa-8e5e-c42c7a0d1afe info: BlobSASAuthenticator:validate() Start validation against blob service Shared Access Signature pattern.
+2026-02-12T00:32:22.743Z d241333e-52c4-48aa-8e5e-c42c7a0d1afe debug: BlobSASAuthenticator:validate() Getting account properties...
+2026-02-12T00:32:22.743Z d241333e-52c4-48aa-8e5e-c42c7a0d1afe debug: BlobSASAuthenticator:validate() Retrieved account name from context: devstoreaccount1, container: datasets, blob: All_Diets.csv
+2026-02-12T00:32:22.743Z d241333e-52c4-48aa-8e5e-c42c7a0d1afe debug: BlobSASAuthenticator:validate() Got account properties successfully.
+2026-02-12T00:32:22.743Z d241333e-52c4-48aa-8e5e-c42c7a0d1afe debug: BlobSASAuthenticator:validate() Retrieved signature from URL parameter sig: undefined
+2026-02-12T00:32:22.743Z d241333e-52c4-48aa-8e5e-c42c7a0d1afe debug: BlobSASAuthenticator:validate() No signature found in request. Skip blob service SAS validation.
+2026-02-12T00:32:22.743Z d241333e-52c4-48aa-8e5e-c42c7a0d1afe error: ErrorMiddleware: Received a MiddlewareError, fill error information to HTTP response
+2026-02-12T00:32:22.743Z d241333e-52c4-48aa-8e5e-c42c7a0d1afe error: ErrorMiddleware: ErrorName=StorageError ErrorMessage=Server failed to authenticate the request. Make sure the value of the Authorization header is formed correctly including the signature.  ErrorHTTPStatusCode=403 ErrorHTTPStatusMessage=Server failed to authenticate the request. Make sure the value of the Authorization header is formed correctly including the signature. ErrorHTTPHeaders={"x-ms-error-code":"AuthorizationFailure","x-ms-request-id":"d241333e-52c4-48aa-8e5e-c42c7a0d1afe"} ErrorHTTPBody="<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<Error>\n  <Code>AuthorizationFailure</Code>\n  <Message>Server failed to authenticate the request. Make sure the value of the Authorization header is formed correctly including the signature.\nRequestId:d241333e-52c4-48aa-8e5e-c42c7a0d1afe\nTime:2026-02-12T00:32:22.743Z</Message>\n</Error>" ErrorStack="StorageError: Server failed to authenticate the request. Make sure the value of the Authorization header is formed correctly including the signature.\n    at StorageErrorFactory.getAuthorizationFailure (C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\dist\\src\\blob\\errors\\StorageErrorFactory.js:144:16)\n    at C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\dist\\src\\blob\\middlewares\\AuthenticationMiddlewareFactory.js:25:56\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"
+2026-02-12T00:32:22.743Z d241333e-52c4-48aa-8e5e-c42c7a0d1afe error: ErrorMiddleware: Set HTTP code: 403
+2026-02-12T00:32:22.743Z d241333e-52c4-48aa-8e5e-c42c7a0d1afe error: ErrorMiddleware: Set HTTP status message: Server failed to authenticate the request. Make sure the value of the Authorization header is formed correctly including the signature.
+2026-02-12T00:32:22.743Z d241333e-52c4-48aa-8e5e-c42c7a0d1afe error: ErrorMiddleware: Set HTTP Header: x-ms-error-code=AuthorizationFailure
+2026-02-12T00:32:22.743Z d241333e-52c4-48aa-8e5e-c42c7a0d1afe error: ErrorMiddleware: Set HTTP Header: x-ms-request-id=d241333e-52c4-48aa-8e5e-c42c7a0d1afe
+2026-02-12T00:32:22.743Z d241333e-52c4-48aa-8e5e-c42c7a0d1afe error: ErrorMiddleware: Set content type: application/xml
+2026-02-12T00:32:22.743Z d241333e-52c4-48aa-8e5e-c42c7a0d1afe error: ErrorMiddleware: Set HTTP body: "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<Error>\n  <Code>AuthorizationFailure</Code>\n  <Message>Server failed to authenticate the request. Make sure the value of the Authorization header is formed correctly including the signature.\nRequestId:d241333e-52c4-48aa-8e5e-c42c7a0d1afe\nTime:2026-02-12T00:32:22.743Z</Message>\n</Error>"
+2026-02-12T00:32:22.743Z d241333e-52c4-48aa-8e5e-c42c7a0d1afe verbose: Send Blob telemetry: B_BlockBlob_Upload
+2026-02-12T00:32:22.743Z d241333e-52c4-48aa-8e5e-c42c7a0d1afe info: EndMiddleware: End response. TotalTimeInMS=2 StatusCode=403 StatusMessage=Server failed to authenticate the request. Make sure the value of the Authorization header is formed correctly including the signature. Headers={"server":"Azurite-Blob/3.35.0","x-ms-error-code":"AuthorizationFailure","x-ms-request-id":"d241333e-52c4-48aa-8e5e-c42c7a0d1afe","content-type":"application/xml"}
+2026-02-12T00:32:35.438Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:32:35.438Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:32:35.468Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:32:35.468Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:32:35.499Z 	 info: QueueGCManager:markSweepLoop() Start new mark and sweep.
+2026-02-12T00:32:35.499Z 	 info: QueueGCManger:markSweep() Get all extents.
+2026-02-12T00:32:35.499Z 	 info: QueueGCManager:marksweep() Get 0 extents.
+2026-02-12T00:32:35.499Z 	 info: QueueGCManager:markSweep() Get referred extents, then remove from allExtents.
+2026-02-12T00:32:35.499Z 	 info: QueueGCManager:markSweep() Got referred extents, unreferenced extents count is 0.
+2026-02-12T00:32:35.499Z 	 info: QueueGCManager:markSweepLoop() Mark and sweep finished, take 0ms.
+2026-02-12T00:32:35.499Z 	 info: QueueGCManager:markSweepLoop() Sleep for 60000
+2026-02-12T00:32:35.499Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:32:35.499Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:33:35.450Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:33:35.450Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:33:35.481Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:33:35.481Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:33:35.512Z 	 info: QueueGCManager:markSweepLoop() Start new mark and sweep.
+2026-02-12T00:33:35.512Z 	 info: QueueGCManger:markSweep() Get all extents.
+2026-02-12T00:33:35.512Z 	 info: QueueGCManager:marksweep() Get 0 extents.
+2026-02-12T00:33:35.512Z 	 info: QueueGCManager:markSweep() Get referred extents, then remove from allExtents.
+2026-02-12T00:33:35.512Z 	 info: QueueGCManager:markSweep() Got referred extents, unreferenced extents count is 0.
+2026-02-12T00:33:35.512Z 	 info: QueueGCManager:markSweepLoop() Mark and sweep finished, take 0ms.
+2026-02-12T00:33:35.512Z 	 info: QueueGCManager:markSweepLoop() Sleep for 60000
+2026-02-12T00:33:35.512Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:33:35.512Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:34:35.464Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:34:35.464Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:34:35.494Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:34:35.495Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:34:35.525Z 	 info: QueueGCManager:markSweepLoop() Start new mark and sweep.
+2026-02-12T00:34:35.525Z 	 info: QueueGCManger:markSweep() Get all extents.
+2026-02-12T00:34:35.525Z 	 info: QueueGCManager:marksweep() Get 0 extents.
+2026-02-12T00:34:35.525Z 	 info: QueueGCManager:markSweep() Get referred extents, then remove from allExtents.
+2026-02-12T00:34:35.525Z 	 info: QueueGCManager:markSweep() Got referred extents, unreferenced extents count is 0.
+2026-02-12T00:34:35.525Z 	 info: QueueGCManager:markSweepLoop() Mark and sweep finished, take 0ms.
+2026-02-12T00:34:35.525Z 	 info: QueueGCManager:markSweepLoop() Sleep for 60000
+2026-02-12T00:34:35.525Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:34:35.525Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.

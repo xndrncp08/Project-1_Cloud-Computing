@@ -1,0 +1,204 @@
+2026-02-12T00:25:24.432Z 	 info: Azurite Blob service is starting on 127.0.0.1:10000
+2026-02-12T00:25:24.433Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:25:24.434Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:25:24.456Z 	 info: BlobGCManager:start() Starting BlobGCManager. Set status to Initializing.
+2026-02-12T00:26:25.662Z 	 info: Azurite Blob service is starting on 127.0.0.1:10000
+2026-02-12T00:26:25.663Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:26:25.664Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:26:25.693Z 	 info: BlobGCManager:start() Starting BlobGCManager. Set status to Initializing.
+2026-02-12T00:26:25.693Z 	 info: BlobGCManager:start() Trigger mark and sweep loop. Set status to Running.
+2026-02-12T00:26:25.693Z 	 info: BlobGCManager:markSweepLoop() Start next mark and sweep.
+2026-02-12T00:26:25.693Z 	 info: BlobGCManager:markSweep() Get all extents.
+2026-02-12T00:26:25.694Z 	 info: BlobGCManager:start() BlobGCManager successfully started.
+2026-02-12T00:26:25.700Z 	 info: BlobGCManager:markSweep() Got 0 extents.
+2026-02-12T00:26:25.700Z 	 info: BlobGCManager:markSweep() Get referred extents.
+2026-02-12T00:26:25.701Z 	 info: BlobGCManager:markSweep() Got referred extents, unreferenced extents count is 0.
+2026-02-12T00:26:25.701Z 	 info: BlobGCManager:markSweepLoop() Mark and sweep finished, taken 8ms.
+2026-02-12T00:26:25.701Z 	 info: BlobGCManager:markSweepLoop() Sleep for 600000ms.
+2026-02-12T00:26:25.704Z 	 info: Azurite Blob service successfully listens on http://127.0.0.1:10000
+2026-02-12T00:26:25.705Z 	 info: Azurite Queue service is starting on 127.0.0.1:10001
+2026-02-12T00:26:25.705Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:26:25.705Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:26:25.724Z 	 info: QueueGCManager:start() Starting QueueGCManager, set status to Initializing
+2026-02-12T00:26:25.724Z 	 info: QueueGCManager:start() Trigger mark and sweep loop, set status to Running.
+2026-02-12T00:26:25.724Z 	 info: QueueGCManager:markSweepLoop() Start new mark and sweep.
+2026-02-12T00:26:25.724Z 	 info: QueueGCManger:markSweep() Get all extents.
+2026-02-12T00:26:25.725Z 	 info: QueueGCManager:start() QueueGCManager successfully started.
+2026-02-12T00:26:25.725Z 	 info: QueueGCManager:marksweep() Get 0 extents.
+2026-02-12T00:26:25.725Z 	 info: QueueGCManager:markSweep() Get referred extents, then remove from allExtents.
+2026-02-12T00:26:25.725Z 	 info: QueueGCManager:markSweep() Got referred extents, unreferenced extents count is 0.
+2026-02-12T00:26:25.725Z 	 info: QueueGCManager:markSweepLoop() Mark and sweep finished, take 1ms.
+2026-02-12T00:26:25.725Z 	 info: QueueGCManager:markSweepLoop() Sleep for 60000
+2026-02-12T00:26:25.726Z 	 info: Azurite Queue service successfully listens on http://127.0.0.1:10001
+2026-02-12T00:26:25.727Z 	 info: Azurite Table service is starting on 127.0.0.1:10002
+2026-02-12T00:26:25.727Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:26:25.727Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:26:25.739Z 	 info: Azurite Table service successfully listens on http://127.0.0.1:10002
+2026-02-12T00:26:25.740Z 	 info: InstaceID b609336d-a650-4436-a9da-1baa7295f314, SessionID 2da2021c-8fb2-49d6-90ee-9907b9438585.
+2026-02-12T00:26:25.758Z 	 info: Telemetry initialize successfully.
+2026-02-12T00:26:25.761Z 	 verbose: Send start telemetry
+2026-02-12T00:26:38.105Z c7d35551-1dce-4bfc-8bde-0c3ab7f11180 info: BlobStorageContextMiddleware: RequestMethod=PUT RequestURL=http://127.0.0.1/devstoreaccount1/datasets?restype=container RequestHeaders:{"host":"127.0.0.1:10000","user-agent":"azsdk-python-storage-blob/12.28.0 Python/3.12.5 (Windows-11-10.0.26200-SP0)","accept-encoding":"gzip, deflate","accept":"application/xml","connection":"keep-alive","x-ms-version":"2026-02-06","x-ms-date":"Thu, 12 Feb 2026 00:26:38 GMT","x-ms-client-request-id":"7ea63344-07a9-11f1-9779-9009df0be644","authorization":"SharedKey devstoreaccount1:VZXxe9m5XuoH4Ivb5W50CwdcRb3nww3JY4msjdYvxpk=","content-length":"0"} ClientIP=127.0.0.1 Protocol=http HTTPVersion=1.1
+2026-02-12T00:26:38.106Z c7d35551-1dce-4bfc-8bde-0c3ab7f11180 info: BlobStorageContextMiddleware: Account=devstoreaccount1 Container=datasets Blob=
+2026-02-12T00:26:38.106Z c7d35551-1dce-4bfc-8bde-0c3ab7f11180 verbose: DispatchMiddleware: Dispatching request...
+2026-02-12T00:26:38.107Z c7d35551-1dce-4bfc-8bde-0c3ab7f11180 info: DispatchMiddleware: Operation=Container_Create
+2026-02-12T00:26:38.107Z c7d35551-1dce-4bfc-8bde-0c3ab7f11180 verbose: AuthenticationMiddlewareFactory:createAuthenticationMiddleware() Validating authentications.
+2026-02-12T00:26:38.107Z c7d35551-1dce-4bfc-8bde-0c3ab7f11180 info: PublicAccessAuthenticator:validate() Start validation against public access.
+2026-02-12T00:26:38.107Z c7d35551-1dce-4bfc-8bde-0c3ab7f11180 debug: PublicAccessAuthenticator:validate() Getting account properties...
+2026-02-12T00:26:38.107Z c7d35551-1dce-4bfc-8bde-0c3ab7f11180 debug: PublicAccessAuthenticator:validate() Retrieved account name from context: devstoreaccount1, container: datasets, blob: 
+2026-02-12T00:26:38.110Z c7d35551-1dce-4bfc-8bde-0c3ab7f11180 debug: PublicAccessAuthenticator:validate() Skip public access authentication. Cannot get public access type for container datasets
+2026-02-12T00:26:38.110Z c7d35551-1dce-4bfc-8bde-0c3ab7f11180 info: BlobSharedKeyAuthenticator:validate() Start validation against account shared key authentication.
+2026-02-12T00:26:38.117Z c7d35551-1dce-4bfc-8bde-0c3ab7f11180 info: BlobSharedKeyAuthenticator:validate() [STRING TO SIGN]:"PUT\n\n\n\n\n\n\n\n\n\n\n\nx-ms-client-request-id:7ea63344-07a9-11f1-9779-9009df0be644\nx-ms-date:Thu, 12 Feb 2026 00:26:38 GMT\nx-ms-version:2026-02-06\n/devstoreaccount1/devstoreaccount1/datasets\nrestype:container"
+2026-02-12T00:26:38.119Z c7d35551-1dce-4bfc-8bde-0c3ab7f11180 info: BlobSharedKeyAuthenticator:validate() Calculated authentication header based on key1: SharedKey devstoreaccount1:01B+621PXP0KSX+nET11sHgn6GSF/W61x38BTkCmF8M=
+2026-02-12T00:26:38.120Z c7d35551-1dce-4bfc-8bde-0c3ab7f11180 info: BlobSharedKeyAuthenticator:validate() Validation failed.
+2026-02-12T00:26:38.120Z c7d35551-1dce-4bfc-8bde-0c3ab7f11180 info: AccountSASAuthenticator:validate() Start validation against account Shared Access Signature pattern.
+2026-02-12T00:26:38.120Z c7d35551-1dce-4bfc-8bde-0c3ab7f11180 debug: AccountSASAuthenticator:validate() Getting account properties...
+2026-02-12T00:26:38.120Z c7d35551-1dce-4bfc-8bde-0c3ab7f11180 debug: AccountSASAuthenticator:validate() Retrieved account name from context: devstoreaccount1, container: datasets, blob: 
+2026-02-12T00:26:38.120Z c7d35551-1dce-4bfc-8bde-0c3ab7f11180 debug: AccountSASAuthenticator:validate() Got account properties successfully.
+2026-02-12T00:26:38.120Z c7d35551-1dce-4bfc-8bde-0c3ab7f11180 debug: AccountSASAuthenticator:validate() Retrieved signature from URL parameter sig: undefined
+2026-02-12T00:26:38.120Z c7d35551-1dce-4bfc-8bde-0c3ab7f11180 info: AccountSASAuthenticator:validate() Failed to get valid account SAS values from request.
+2026-02-12T00:26:38.120Z c7d35551-1dce-4bfc-8bde-0c3ab7f11180 info: BlobSASAuthenticator:validate() Start validation against blob service Shared Access Signature pattern.
+2026-02-12T00:26:38.120Z c7d35551-1dce-4bfc-8bde-0c3ab7f11180 debug: BlobSASAuthenticator:validate() Getting account properties...
+2026-02-12T00:26:38.120Z c7d35551-1dce-4bfc-8bde-0c3ab7f11180 debug: BlobSASAuthenticator:validate() Retrieved account name from context: devstoreaccount1, container: datasets, blob: 
+2026-02-12T00:26:38.120Z c7d35551-1dce-4bfc-8bde-0c3ab7f11180 debug: BlobSASAuthenticator:validate() Got account properties successfully.
+2026-02-12T00:26:38.120Z c7d35551-1dce-4bfc-8bde-0c3ab7f11180 debug: BlobSASAuthenticator:validate() Retrieved signature from URL parameter sig: undefined
+2026-02-12T00:26:38.120Z c7d35551-1dce-4bfc-8bde-0c3ab7f11180 debug: BlobSASAuthenticator:validate() No signature found in request. Skip blob service SAS validation.
+2026-02-12T00:26:38.121Z c7d35551-1dce-4bfc-8bde-0c3ab7f11180 error: ErrorMiddleware: Received a MiddlewareError, fill error information to HTTP response
+2026-02-12T00:26:38.121Z c7d35551-1dce-4bfc-8bde-0c3ab7f11180 error: ErrorMiddleware: ErrorName=StorageError ErrorMessage=Server failed to authenticate the request. Make sure the value of the Authorization header is formed correctly including the signature.  ErrorHTTPStatusCode=403 ErrorHTTPStatusMessage=Server failed to authenticate the request. Make sure the value of the Authorization header is formed correctly including the signature. ErrorHTTPHeaders={"x-ms-error-code":"AuthorizationFailure","x-ms-request-id":"c7d35551-1dce-4bfc-8bde-0c3ab7f11180"} ErrorHTTPBody="<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<Error>\n  <Code>AuthorizationFailure</Code>\n  <Message>Server failed to authenticate the request. Make sure the value of the Authorization header is formed correctly including the signature.\nRequestId:c7d35551-1dce-4bfc-8bde-0c3ab7f11180\nTime:2026-02-12T00:26:38.120Z</Message>\n</Error>" ErrorStack="StorageError: Server failed to authenticate the request. Make sure the value of the Authorization header is formed correctly including the signature.\n    at StorageErrorFactory.getAuthorizationFailure (C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\dist\\src\\blob\\errors\\StorageErrorFactory.js:144:16)\n    at C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\dist\\src\\blob\\middlewares\\AuthenticationMiddlewareFactory.js:25:56\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"
+2026-02-12T00:26:38.121Z c7d35551-1dce-4bfc-8bde-0c3ab7f11180 error: ErrorMiddleware: Set HTTP code: 403
+2026-02-12T00:26:38.121Z c7d35551-1dce-4bfc-8bde-0c3ab7f11180 error: ErrorMiddleware: Set HTTP status message: Server failed to authenticate the request. Make sure the value of the Authorization header is formed correctly including the signature.
+2026-02-12T00:26:38.121Z c7d35551-1dce-4bfc-8bde-0c3ab7f11180 error: ErrorMiddleware: Set HTTP Header: x-ms-error-code=AuthorizationFailure
+2026-02-12T00:26:38.121Z c7d35551-1dce-4bfc-8bde-0c3ab7f11180 error: ErrorMiddleware: Set HTTP Header: x-ms-request-id=c7d35551-1dce-4bfc-8bde-0c3ab7f11180
+2026-02-12T00:26:38.121Z c7d35551-1dce-4bfc-8bde-0c3ab7f11180 error: ErrorMiddleware: Set content type: application/xml
+2026-02-12T00:26:38.121Z c7d35551-1dce-4bfc-8bde-0c3ab7f11180 error: ErrorMiddleware: Set HTTP body: "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<Error>\n  <Code>AuthorizationFailure</Code>\n  <Message>Server failed to authenticate the request. Make sure the value of the Authorization header is formed correctly including the signature.\nRequestId:c7d35551-1dce-4bfc-8bde-0c3ab7f11180\nTime:2026-02-12T00:26:38.120Z</Message>\n</Error>"
+2026-02-12T00:26:38.122Z c7d35551-1dce-4bfc-8bde-0c3ab7f11180 verbose: Send Blob telemetry: B_Container_Create
+2026-02-12T00:26:38.122Z c7d35551-1dce-4bfc-8bde-0c3ab7f11180 info: EndMiddleware: End response. TotalTimeInMS=17 StatusCode=403 StatusMessage=Server failed to authenticate the request. Make sure the value of the Authorization header is formed correctly including the signature. Headers={"server":"Azurite-Blob/3.35.0","x-ms-error-code":"AuthorizationFailure","x-ms-request-id":"c7d35551-1dce-4bfc-8bde-0c3ab7f11180","content-type":"application/xml"}
+2026-02-12T00:26:38.128Z 13ec23df-d42f-4984-88cf-ad0d68c221f6 info: BlobStorageContextMiddleware: RequestMethod=PUT RequestURL=http://127.0.0.1/devstoreaccount1/datasets/All_Diets.csv RequestHeaders:{"host":"127.0.0.1:10000","user-agent":"azsdk-python-storage-blob/12.28.0 Python/3.12.5 (Windows-11-10.0.26200-SP0)","accept-encoding":"gzip, deflate","accept":"application/xml","connection":"keep-alive","content-length":"703100","x-ms-blob-type":"BlockBlob","x-ms-version":"2026-02-06","content-type":"application/octet-stream","x-ms-date":"Thu, 12 Feb 2026 00:26:38 GMT","x-ms-client-request-id":"7eac2031-07a9-11f1-b8b2-9009df0be644","authorization":"SharedKey devstoreaccount1:rRyKYnrdHi0nb1F/soCkfzxolPSWB2/A9wqZAyEdObs="} ClientIP=127.0.0.1 Protocol=http HTTPVersion=1.1
+2026-02-12T00:26:38.128Z 13ec23df-d42f-4984-88cf-ad0d68c221f6 info: BlobStorageContextMiddleware: Account=devstoreaccount1 Container=datasets Blob=All_Diets.csv
+2026-02-12T00:26:38.128Z 13ec23df-d42f-4984-88cf-ad0d68c221f6 verbose: DispatchMiddleware: Dispatching request...
+2026-02-12T00:26:38.128Z 13ec23df-d42f-4984-88cf-ad0d68c221f6 info: DispatchMiddleware: Operation=BlockBlob_Upload
+2026-02-12T00:26:38.129Z 13ec23df-d42f-4984-88cf-ad0d68c221f6 verbose: AuthenticationMiddlewareFactory:createAuthenticationMiddleware() Validating authentications.
+2026-02-12T00:26:38.129Z 13ec23df-d42f-4984-88cf-ad0d68c221f6 info: PublicAccessAuthenticator:validate() Start validation against public access.
+2026-02-12T00:26:38.129Z 13ec23df-d42f-4984-88cf-ad0d68c221f6 debug: PublicAccessAuthenticator:validate() Getting account properties...
+2026-02-12T00:26:38.129Z 13ec23df-d42f-4984-88cf-ad0d68c221f6 debug: PublicAccessAuthenticator:validate() Retrieved account name from context: devstoreaccount1, container: datasets, blob: All_Diets.csv
+2026-02-12T00:26:38.129Z 13ec23df-d42f-4984-88cf-ad0d68c221f6 debug: PublicAccessAuthenticator:validate() Skip public access authentication. Cannot get public access type for container datasets
+2026-02-12T00:26:38.129Z 13ec23df-d42f-4984-88cf-ad0d68c221f6 info: BlobSharedKeyAuthenticator:validate() Start validation against account shared key authentication.
+2026-02-12T00:26:38.130Z 13ec23df-d42f-4984-88cf-ad0d68c221f6 info: BlobSharedKeyAuthenticator:validate() [STRING TO SIGN]:"PUT\n\n\n703100\n\napplication/octet-stream\n\n\n\n\n\n\nx-ms-blob-type:BlockBlob\nx-ms-client-request-id:7eac2031-07a9-11f1-b8b2-9009df0be644\nx-ms-date:Thu, 12 Feb 2026 00:26:38 GMT\nx-ms-version:2026-02-06\n/devstoreaccount1/devstoreaccount1/datasets/All_Diets.csv"
+2026-02-12T00:26:38.130Z 13ec23df-d42f-4984-88cf-ad0d68c221f6 info: BlobSharedKeyAuthenticator:validate() Calculated authentication header based on key1: SharedKey devstoreaccount1:e9TjNtzgCJlRAChJU10/3KFCo52pvFpQHUYYxycyYcI=
+2026-02-12T00:26:38.130Z 13ec23df-d42f-4984-88cf-ad0d68c221f6 info: BlobSharedKeyAuthenticator:validate() Validation failed.
+2026-02-12T00:26:38.130Z 13ec23df-d42f-4984-88cf-ad0d68c221f6 info: AccountSASAuthenticator:validate() Start validation against account Shared Access Signature pattern.
+2026-02-12T00:26:38.130Z 13ec23df-d42f-4984-88cf-ad0d68c221f6 debug: AccountSASAuthenticator:validate() Getting account properties...
+2026-02-12T00:26:38.130Z 13ec23df-d42f-4984-88cf-ad0d68c221f6 debug: AccountSASAuthenticator:validate() Retrieved account name from context: devstoreaccount1, container: datasets, blob: All_Diets.csv
+2026-02-12T00:26:38.130Z 13ec23df-d42f-4984-88cf-ad0d68c221f6 debug: AccountSASAuthenticator:validate() Got account properties successfully.
+2026-02-12T00:26:38.130Z 13ec23df-d42f-4984-88cf-ad0d68c221f6 debug: AccountSASAuthenticator:validate() Retrieved signature from URL parameter sig: undefined
+2026-02-12T00:26:38.130Z 13ec23df-d42f-4984-88cf-ad0d68c221f6 info: AccountSASAuthenticator:validate() Failed to get valid account SAS values from request.
+2026-02-12T00:26:38.130Z 13ec23df-d42f-4984-88cf-ad0d68c221f6 info: BlobSASAuthenticator:validate() Start validation against blob service Shared Access Signature pattern.
+2026-02-12T00:26:38.130Z 13ec23df-d42f-4984-88cf-ad0d68c221f6 debug: BlobSASAuthenticator:validate() Getting account properties...
+2026-02-12T00:26:38.130Z 13ec23df-d42f-4984-88cf-ad0d68c221f6 debug: BlobSASAuthenticator:validate() Retrieved account name from context: devstoreaccount1, container: datasets, blob: All_Diets.csv
+2026-02-12T00:26:38.130Z 13ec23df-d42f-4984-88cf-ad0d68c221f6 debug: BlobSASAuthenticator:validate() Got account properties successfully.
+2026-02-12T00:26:38.130Z 13ec23df-d42f-4984-88cf-ad0d68c221f6 debug: BlobSASAuthenticator:validate() Retrieved signature from URL parameter sig: undefined
+2026-02-12T00:26:38.130Z 13ec23df-d42f-4984-88cf-ad0d68c221f6 debug: BlobSASAuthenticator:validate() No signature found in request. Skip blob service SAS validation.
+2026-02-12T00:26:38.130Z 13ec23df-d42f-4984-88cf-ad0d68c221f6 error: ErrorMiddleware: Received a MiddlewareError, fill error information to HTTP response
+2026-02-12T00:26:38.130Z 13ec23df-d42f-4984-88cf-ad0d68c221f6 error: ErrorMiddleware: ErrorName=StorageError ErrorMessage=Server failed to authenticate the request. Make sure the value of the Authorization header is formed correctly including the signature.  ErrorHTTPStatusCode=403 ErrorHTTPStatusMessage=Server failed to authenticate the request. Make sure the value of the Authorization header is formed correctly including the signature. ErrorHTTPHeaders={"x-ms-error-code":"AuthorizationFailure","x-ms-request-id":"13ec23df-d42f-4984-88cf-ad0d68c221f6"} ErrorHTTPBody="<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<Error>\n  <Code>AuthorizationFailure</Code>\n  <Message>Server failed to authenticate the request. Make sure the value of the Authorization header is formed correctly including the signature.\nRequestId:13ec23df-d42f-4984-88cf-ad0d68c221f6\nTime:2026-02-12T00:26:38.130Z</Message>\n</Error>" ErrorStack="StorageError: Server failed to authenticate the request. Make sure the value of the Authorization header is formed correctly including the signature.\n    at StorageErrorFactory.getAuthorizationFailure (C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\dist\\src\\blob\\errors\\StorageErrorFactory.js:144:16)\n    at C:\\Users\\xande\\AppData\\Roaming\\npm\\node_modules\\azurite\\dist\\src\\blob\\middlewares\\AuthenticationMiddlewareFactory.js:25:56\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"
+2026-02-12T00:26:38.130Z 13ec23df-d42f-4984-88cf-ad0d68c221f6 error: ErrorMiddleware: Set HTTP code: 403
+2026-02-12T00:26:38.130Z 13ec23df-d42f-4984-88cf-ad0d68c221f6 error: ErrorMiddleware: Set HTTP status message: Server failed to authenticate the request. Make sure the value of the Authorization header is formed correctly including the signature.
+2026-02-12T00:26:38.130Z 13ec23df-d42f-4984-88cf-ad0d68c221f6 error: ErrorMiddleware: Set HTTP Header: x-ms-error-code=AuthorizationFailure
+2026-02-12T00:26:38.130Z 13ec23df-d42f-4984-88cf-ad0d68c221f6 error: ErrorMiddleware: Set HTTP Header: x-ms-request-id=13ec23df-d42f-4984-88cf-ad0d68c221f6
+2026-02-12T00:26:38.130Z 13ec23df-d42f-4984-88cf-ad0d68c221f6 error: ErrorMiddleware: Set content type: application/xml
+2026-02-12T00:26:38.130Z 13ec23df-d42f-4984-88cf-ad0d68c221f6 error: ErrorMiddleware: Set HTTP body: "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<Error>\n  <Code>AuthorizationFailure</Code>\n  <Message>Server failed to authenticate the request. Make sure the value of the Authorization header is formed correctly including the signature.\nRequestId:13ec23df-d42f-4984-88cf-ad0d68c221f6\nTime:2026-02-12T00:26:38.130Z</Message>\n</Error>"
+2026-02-12T00:26:38.130Z 13ec23df-d42f-4984-88cf-ad0d68c221f6 verbose: Send Blob telemetry: B_BlockBlob_Upload
+2026-02-12T00:26:38.130Z 13ec23df-d42f-4984-88cf-ad0d68c221f6 info: EndMiddleware: End response. TotalTimeInMS=2 StatusCode=403 StatusMessage=Server failed to authenticate the request. Make sure the value of the Authorization header is formed correctly including the signature. Headers={"server":"Azurite-Blob/3.35.0","x-ms-error-code":"AuthorizationFailure","x-ms-request-id":"13ec23df-d42f-4984-88cf-ad0d68c221f6","content-type":"application/xml"}
+2026-02-12T00:27:25.669Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:27:25.669Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:27:25.715Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:27:25.715Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:27:25.731Z 	 info: QueueGCManager:markSweepLoop() Start new mark and sweep.
+2026-02-12T00:27:25.731Z 	 info: QueueGCManger:markSweep() Get all extents.
+2026-02-12T00:27:25.731Z 	 info: QueueGCManager:marksweep() Get 0 extents.
+2026-02-12T00:27:25.731Z 	 info: QueueGCManager:markSweep() Get referred extents, then remove from allExtents.
+2026-02-12T00:27:25.731Z 	 info: QueueGCManager:markSweep() Got referred extents, unreferenced extents count is 0.
+2026-02-12T00:27:25.731Z 	 info: QueueGCManager:markSweepLoop() Mark and sweep finished, take 0ms.
+2026-02-12T00:27:25.731Z 	 info: QueueGCManager:markSweepLoop() Sleep for 60000
+2026-02-12T00:27:25.732Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:27:25.732Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:27:30.438Z 	 info: Azurite Blob service is starting on 127.0.0.1:10000
+2026-02-12T00:27:30.439Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:27:30.439Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:27:30.461Z 	 info: BlobGCManager:start() Starting BlobGCManager. Set status to Initializing.
+2026-02-12T00:28:09.422Z 	 info: Azurite Blob service is starting on 127.0.0.1:10000
+2026-02-12T00:28:09.423Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:28:09.423Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:28:09.450Z 	 info: BlobGCManager:start() Starting BlobGCManager. Set status to Initializing.
+2026-02-12T00:28:09.450Z 	 info: BlobGCManager:start() Trigger mark and sweep loop. Set status to Running.
+2026-02-12T00:28:09.451Z 	 info: BlobGCManager:markSweepLoop() Start next mark and sweep.
+2026-02-12T00:28:09.451Z 	 info: BlobGCManager:markSweep() Get all extents.
+2026-02-12T00:28:09.451Z 	 info: BlobGCManager:start() BlobGCManager successfully started.
+2026-02-12T00:28:09.457Z 	 info: BlobGCManager:markSweep() Got 0 extents.
+2026-02-12T00:28:09.457Z 	 info: BlobGCManager:markSweep() Get referred extents.
+2026-02-12T00:28:09.458Z 	 info: BlobGCManager:markSweep() Got referred extents, unreferenced extents count is 0.
+2026-02-12T00:28:09.458Z 	 info: BlobGCManager:markSweepLoop() Mark and sweep finished, taken 7ms.
+2026-02-12T00:28:09.458Z 	 info: BlobGCManager:markSweepLoop() Sleep for 600000ms.
+2026-02-12T00:28:09.461Z 	 info: Azurite Blob service successfully listens on http://127.0.0.1:10000
+2026-02-12T00:28:09.462Z 	 info: Azurite Queue service is starting on 127.0.0.1:10001
+2026-02-12T00:28:09.462Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:28:09.462Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:28:09.481Z 	 info: QueueGCManager:start() Starting QueueGCManager, set status to Initializing
+2026-02-12T00:28:09.481Z 	 info: QueueGCManager:start() Trigger mark and sweep loop, set status to Running.
+2026-02-12T00:28:09.481Z 	 info: QueueGCManager:markSweepLoop() Start new mark and sweep.
+2026-02-12T00:28:09.481Z 	 info: QueueGCManger:markSweep() Get all extents.
+2026-02-12T00:28:09.481Z 	 info: QueueGCManager:start() QueueGCManager successfully started.
+2026-02-12T00:28:09.482Z 	 info: QueueGCManager:marksweep() Get 0 extents.
+2026-02-12T00:28:09.482Z 	 info: QueueGCManager:markSweep() Get referred extents, then remove from allExtents.
+2026-02-12T00:28:09.482Z 	 info: QueueGCManager:markSweep() Got referred extents, unreferenced extents count is 0.
+2026-02-12T00:28:09.482Z 	 info: QueueGCManager:markSweepLoop() Mark and sweep finished, take 1ms.
+2026-02-12T00:28:09.482Z 	 info: QueueGCManager:markSweepLoop() Sleep for 60000
+2026-02-12T00:28:09.483Z 	 info: Azurite Queue service successfully listens on http://127.0.0.1:10001
+2026-02-12T00:28:09.484Z 	 info: Azurite Table service is starting on 127.0.0.1:10002
+2026-02-12T00:28:09.484Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:28:09.484Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:28:09.498Z 	 info: Azurite Table service successfully listens on http://127.0.0.1:10002
+2026-02-12T00:28:09.499Z 	 info: InstaceID b609336d-a650-4436-a9da-1baa7295f314, SessionID 40a40597-1f08-475c-96b2-58b07fb327ef.
+2026-02-12T00:28:09.517Z 	 info: Telemetry initialize successfully.
+2026-02-12T00:28:09.520Z 	 verbose: Send start telemetry
+2026-02-12T00:29:09.430Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:29:09.430Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:29:09.476Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:29:09.476Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:29:09.491Z 	 info: QueueGCManager:markSweepLoop() Start new mark and sweep.
+2026-02-12T00:29:09.492Z 	 info: QueueGCManger:markSweep() Get all extents.
+2026-02-12T00:29:09.492Z 	 info: QueueGCManager:marksweep() Get 0 extents.
+2026-02-12T00:29:09.492Z 	 info: QueueGCManager:markSweep() Get referred extents, then remove from allExtents.
+2026-02-12T00:29:09.492Z 	 info: QueueGCManager:markSweep() Got referred extents, unreferenced extents count is 0.
+2026-02-12T00:29:09.492Z 	 info: QueueGCManager:markSweepLoop() Mark and sweep finished, take 0ms.
+2026-02-12T00:29:09.492Z 	 info: QueueGCManager:markSweepLoop() Sleep for 60000
+2026-02-12T00:29:09.492Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:29:09.492Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:30:09.444Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:30:09.444Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:30:09.491Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:30:09.491Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:30:09.492Z 	 info: QueueGCManager:markSweepLoop() Start new mark and sweep.
+2026-02-12T00:30:09.492Z 	 info: QueueGCManger:markSweep() Get all extents.
+2026-02-12T00:30:09.492Z 	 info: QueueGCManager:marksweep() Get 0 extents.
+2026-02-12T00:30:09.492Z 	 info: QueueGCManager:markSweep() Get referred extents, then remove from allExtents.
+2026-02-12T00:30:09.492Z 	 info: QueueGCManager:markSweep() Got referred extents, unreferenced extents count is 0.
+2026-02-12T00:30:09.492Z 	 info: QueueGCManager:markSweepLoop() Mark and sweep finished, take 0ms.
+2026-02-12T00:30:09.492Z 	 info: QueueGCManager:markSweepLoop() Sleep for 60000
+2026-02-12T00:30:09.492Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:30:09.492Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:31:09.445Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:31:09.445Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:31:09.491Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:31:09.492Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:31:09.492Z 	 info: QueueGCManager:markSweepLoop() Start new mark and sweep.
+2026-02-12T00:31:09.492Z 	 info: QueueGCManger:markSweep() Get all extents.
+2026-02-12T00:31:09.492Z 	 info: QueueGCManager:marksweep() Get 0 extents.
+2026-02-12T00:31:09.492Z 	 info: QueueGCManager:markSweep() Get referred extents, then remove from allExtents.
+2026-02-12T00:31:09.492Z 	 info: QueueGCManager:markSweep() Got referred extents, unreferenced extents count is 0.
+2026-02-12T00:31:09.492Z 	 info: QueueGCManager:markSweepLoop() Mark and sweep finished, take 0ms.
+2026-02-12T00:31:09.492Z 	 info: QueueGCManager:markSweepLoop() Sleep for 60000
+2026-02-12T00:31:09.492Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:31:09.492Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:34:56.927Z 	 info: Azurite Blob service is starting on 127.0.0.1:10000
+2026-02-12T00:34:56.928Z 	 info: AccountDataStore:init() Refresh accounts from environment variable AZURITE_ACCOUNTS with value undefined
+2026-02-12T00:34:56.928Z 	 info: AccountDataStore:init() Fallback to default emulator account devstoreaccount1.
+2026-02-12T00:34:56.953Z 	 info: BlobGCManager:start() Starting BlobGCManager. Set status to Initializing.
