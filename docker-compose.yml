@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  diet-analysis:
+    image: diet-analysis:v1.0
+    container_name: diet-analysis-app
+    volumes:
+      - ./output:/app/output
+    environment:
+      - MPLBACKEND=Agg
+    command: python data_analysis.py
+
+  # Optional: Simple web server to view results
+  results-viewer:
+    image: nginx:alpine
+    container_name: results-nginx
+    ports:
+      - "8080:80"
+    volumes:
+      - ./output:/usr/share/nginx/html
+    depends_on:
+      - diet-analysis
